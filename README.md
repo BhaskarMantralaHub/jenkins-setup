@@ -24,7 +24,7 @@ https://www.jenkins.io/download/lts/macos
     Open Jenkins config file from following location and update default port:
 
 
-```vi /opt/homebrew/Cellar/jenkins-lts/2.xxx.x/homebrew.jenkins-lts.service```
+```vi /opt/homebrew/Cellar/jenkins-lts/2.xxx.x/homebrew.mxcl.jenkins-lts.plist```
 
 
 
