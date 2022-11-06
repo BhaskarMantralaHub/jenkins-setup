@@ -34,8 +34,8 @@ https://www.jenkins.io/download/lts/macos
                 <string>/opt/homebrew/opt/jenkins-lts/libexec/jenkins.war</string>
                 <string>--httpListenAddress=127.0.0.1</string>
                 <string>--httpPort=9090</string>
-</array>```
-
+</array>
+```
 
 
 
