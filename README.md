@@ -26,6 +26,17 @@ https://www.jenkins.io/download/lts/macos
 
 ```vi /opt/homebrew/Cellar/jenkins-lts/2.xxx.x/homebrew.mxcl.jenkins-lts.plist```
 
+```
+<array>
+                <string>/opt/homebrew/opt/openjdk@17/bin/java</string>
+                <string>-Dmail.smtp.starttls.enable=true</string>
+                <string>-jar</string>
+                <string>/opt/homebrew/opt/jenkins-lts/libexec/jenkins.war</string>
+                <string>--httpListenAddress=127.0.0.1</string>
+                <string>--httpPort=9090</string>
+</array>```
+
+
 
 
 
