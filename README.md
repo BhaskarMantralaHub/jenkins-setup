@@ -44,6 +44,18 @@ Jenkins > Manage Jenkins > Configure System
 ![run-configuration.png](jenkins-localhost-issue.png)
 
 
+## How to disable jenkins security (disable login)?
+
+From terminal, launch jenkins config.xml 
+
+path: `cd /Users/<USER>/.jenkins`
+
+`vi config.xml`
+
+Set false for `<useSecurity>false</useSecurity>`
+
+
+
 
 
 
