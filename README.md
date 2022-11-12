@@ -37,6 +37,12 @@ https://www.jenkins.io/download/lts/macos
 </array>
 ```
 
+## How to fix please set a valid host name, instead of localhost?
+
+Jenkins > Manage Jenkins > Configure System
+
+![run-configuration.png](jenkins-localhost-issue.png)
+
 
 
 
